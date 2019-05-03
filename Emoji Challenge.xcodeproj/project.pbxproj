@@ -1,0 +1,566 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		08529F7AF62EEC7EF56BDEAD /* Pods_Emoji_Challenge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 661F4B80E6F3268736067742 /* Pods_Emoji_Challenge.framework */; };
+		772E6BDA227048D200B87CFF /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 772E6BD9227048D100B87CFF /* Login.storyboard */; };
+		772E6BDC2270498700B87CFF /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 772E6BDB2270498700B87CFF /* LoginViewController.swift */; };
+		772E6BE0227273DD00B87CFF /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 772E6BDF227273DD00B87CFF /* HomeViewController.swift */; };
+		772E6BE22272A0B900B87CFF /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 772E6BE12272A0B900B87CFF /* RegisterViewController.swift */; };
+		772E6BE42272B42A00B87CFF /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 772E6BE32272B42A00B87CFF /* CameraViewController.swift */; };
+		775F21402278419300DC0CEC /* Assets 6.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 775F213F2278419100DC0CEC /* Assets 6.xcassets */; };
+		775F2142227C7A8600DC0CEC /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 775F2141227C7A8600DC0CEC /* Post.swift */; };
+		77BF196222665CC800A2C5C3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77BF196122665CC800A2C5C3 /* AppDelegate.swift */; };
+		77BF196422665CC800A2C5C3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77BF196322665CC800A2C5C3 /* ViewController.swift */; };
+		77BF196722665CC800A2C5C3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77BF196522665CC800A2C5C3 /* Main.storyboard */; };
+		77BF196A22665CC800A2C5C3 /* Emoji_Challenge.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 77BF196822665CC800A2C5C3 /* Emoji_Challenge.xcdatamodeld */; };
+		77BF196C22665CCE00A2C5C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 77BF196B22665CCE00A2C5C3 /* Assets.xcassets */; };
+		77BF196F22665CCE00A2C5C3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77BF196D22665CCE00A2C5C3 /* LaunchScreen.storyboard */; };
+		77BF19B72268179400A2C5C3 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 77BF19B62268179300A2C5C3 /* GoogleService-Info.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0165F89A96DE15C688CEEBCA /* Pods-Emoji Challenge.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Emoji Challenge.release.xcconfig"; path = "Target Support Files/Pods-Emoji Challenge/Pods-Emoji Challenge.release.xcconfig"; sourceTree = "<group>"; };
+		661F4B80E6F3268736067742 /* Pods_Emoji_Challenge.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Emoji_Challenge.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		772E6BD9227048D100B87CFF /* Login.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
+		772E6BDB2270498700B87CFF /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		772E6BDF227273DD00B87CFF /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		772E6BE12272A0B900B87CFF /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		772E6BE32272B42A00B87CFF /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
+		775F213F2278419100DC0CEC /* Assets 6.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Assets 6.xcassets"; sourceTree = "<group>"; };
+		775F2141227C7A8600DC0CEC /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		77BF195E22665CC700A2C5C3 /* Emoji Challenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Emoji Challenge.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		77BF196122665CC800A2C5C3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		77BF196322665CC800A2C5C3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		77BF196622665CC800A2C5C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		77BF196922665CC800A2C5C3 /* Emoji_Challenge.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Emoji_Challenge.xcdatamodel; sourceTree = "<group>"; };
+		77BF196B22665CCE00A2C5C3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		77BF196E22665CCE00A2C5C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		77BF197022665CCE00A2C5C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		77BF19B62268179300A2C5C3 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		CDF044A750246BE55D00A275 /* Pods-Emoji Challenge.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Emoji Challenge.debug.xcconfig"; path = "Target Support Files/Pods-Emoji Challenge/Pods-Emoji Challenge.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		77BF195B22665CC700A2C5C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08529F7AF62EEC7EF56BDEAD /* Pods_Emoji_Challenge.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2B19DC209AEAA0785B9D0081 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CDF044A750246BE55D00A275 /* Pods-Emoji Challenge.debug.xcconfig */,
+				0165F89A96DE15C688CEEBCA /* Pods-Emoji Challenge.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		772E6BD0227042CD00B87CFF /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				772E6BDB2270498700B87CFF /* LoginViewController.swift */,
+				772E6BDF227273DD00B87CFF /* HomeViewController.swift */,
+				772E6BE12272A0B900B87CFF /* RegisterViewController.swift */,
+				772E6BE32272B42A00B87CFF /* CameraViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		772E6BD12270432800B87CFF /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		772E6BD32270437A00B87CFF /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				77BF196522665CC800A2C5C3 /* Main.storyboard */,
+				772E6BD9227048D100B87CFF /* Login.storyboard */,
+				77BF196D22665CCE00A2C5C3 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		772E6BD4227043B800B87CFF /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		772E6BD5227043BF00B87CFF /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				77BF196822665CC800A2C5C3 /* Emoji_Challenge.xcdatamodeld */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		772E6BD6227043C900B87CFF /* Supporting */ = {
+			isa = PBXGroup;
+			children = (
+				77BF197022665CCE00A2C5C3 /* Info.plist */,
+				77BF19B62268179300A2C5C3 /* GoogleService-Info.plist */,
+			);
+			path = Supporting;
+			sourceTree = "<group>";
+		};
+		772E6BD7227043DD00B87CFF /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		772E6BD8227043FA00B87CFF /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		77BF195522665CC700A2C5C3 = {
+			isa = PBXGroup;
+			children = (
+				77BF196022665CC800A2C5C3 /* Emoji Challenge */,
+				77BF195F22665CC700A2C5C3 /* Products */,
+				2B19DC209AEAA0785B9D0081 /* Pods */,
+				B0F306F269C438C8BCD9FE61 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		77BF195F22665CC700A2C5C3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				77BF195E22665CC700A2C5C3 /* Emoji Challenge.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		77BF196022665CC800A2C5C3 /* Emoji Challenge */ = {
+			isa = PBXGroup;
+			children = (
+				77BF196122665CC800A2C5C3 /* AppDelegate.swift */,
+				772E6BD8227043FA00B87CFF /* Services */,
+				772E6BD5227043BF00B87CFF /* Models */,
+				772E6BD0227042CD00B87CFF /* Controllers */,
+				772E6BD12270432800B87CFF /* Views */,
+				772E6BD7227043DD00B87CFF /* Helpers */,
+				772E6BD4227043B800B87CFF /* Extensions */,
+				772E6BD32270437A00B87CFF /* Storyboards */,
+				772E6BD6227043C900B87CFF /* Supporting */,
+				77BF196322665CC800A2C5C3 /* ViewController.swift */,
+				77BF196B22665CCE00A2C5C3 /* Assets.xcassets */,
+				775F213F2278419100DC0CEC /* Assets 6.xcassets */,
+				775F2141227C7A8600DC0CEC /* Post.swift */,
+			);
+			path = "Emoji Challenge";
+			sourceTree = "<group>";
+		};
+		B0F306F269C438C8BCD9FE61 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				661F4B80E6F3268736067742 /* Pods_Emoji_Challenge.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		77BF195D22665CC700A2C5C3 /* Emoji Challenge */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 77BF197322665CCE00A2C5C3 /* Build configuration list for PBXNativeTarget "Emoji Challenge" */;
+			buildPhases = (
+				4025321B1F0F598B6EA45B29 /* [CP] Check Pods Manifest.lock */,
+				77BF195A22665CC700A2C5C3 /* Sources */,
+				77BF195B22665CC700A2C5C3 /* Frameworks */,
+				77BF195C22665CC700A2C5C3 /* Resources */,
+				687013CAC4DE75292650A62D /* [CP] Embed Pods Frameworks */,
+				C498D889AAFCC6A54A3505B3 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Emoji Challenge";
+			productName = "Emoji Challenge";
+			productReference = 77BF195E22665CC700A2C5C3 /* Emoji Challenge.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		77BF195622665CC700A2C5C3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "COSC 3326";
+				TargetAttributes = {
+					77BF195D22665CC700A2C5C3 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 77BF195922665CC700A2C5C3 /* Build configuration list for PBXProject "Emoji Challenge" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 77BF195522665CC700A2C5C3;
+			productRefGroup = 77BF195F22665CC700A2C5C3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				77BF195D22665CC700A2C5C3 /* Emoji Challenge */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		77BF195C22665CC700A2C5C3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77BF196F22665CCE00A2C5C3 /* LaunchScreen.storyboard in Resources */,
+				77BF19B72268179400A2C5C3 /* GoogleService-Info.plist in Resources */,
+				775F21402278419300DC0CEC /* Assets 6.xcassets in Resources */,
+				77BF196C22665CCE00A2C5C3 /* Assets.xcassets in Resources */,
+				772E6BDA227048D200B87CFF /* Login.storyboard in Resources */,
+				77BF196722665CC800A2C5C3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4025321B1F0F598B6EA45B29 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Emoji Challenge-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		687013CAC4DE75292650A62D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Emoji Challenge/Pods-Emoji Challenge-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/BoringSSL-GRPC/openssl_grpc.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-C++/grpcpp.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-Core/grpc.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/openssl_grpc.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpcpp.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpc.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Emoji Challenge/Pods-Emoji Challenge-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C498D889AAFCC6A54A3505B3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Emoji Challenge/Pods-Emoji Challenge-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseUI/FirebaseAuthUI.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FirebaseAuthUI.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Emoji Challenge/Pods-Emoji Challenge-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		77BF195A22665CC700A2C5C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				772E6BE0227273DD00B87CFF /* HomeViewController.swift in Sources */,
+				772E6BDC2270498700B87CFF /* LoginViewController.swift in Sources */,
+				77BF196422665CC800A2C5C3 /* ViewController.swift in Sources */,
+				775F2142227C7A8600DC0CEC /* Post.swift in Sources */,
+				772E6BE22272A0B900B87CFF /* RegisterViewController.swift in Sources */,
+				772E6BE42272B42A00B87CFF /* CameraViewController.swift in Sources */,
+				77BF196222665CC800A2C5C3 /* AppDelegate.swift in Sources */,
+				77BF196A22665CC800A2C5C3 /* Emoji_Challenge.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		77BF196522665CC800A2C5C3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				77BF196622665CC800A2C5C3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		77BF196D22665CCE00A2C5C3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				77BF196E22665CCE00A2C5C3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		77BF197122665CCE00A2C5C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		77BF197222665CCE00A2C5C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		77BF197422665CCE00A2C5C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CDF044A750246BE55D00A275 /* Pods-Emoji Challenge.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9WK3UGJLM6;
+				INFOPLIST_FILE = "$(SRCROOT)/Emoji Challenge/Supporting/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.amercad3.www.Emoji-Challenge";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		77BF197522665CCE00A2C5C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0165F89A96DE15C688CEEBCA /* Pods-Emoji Challenge.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9WK3UGJLM6;
+				INFOPLIST_FILE = "$(SRCROOT)/Emoji Challenge/Supporting/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.amercad3.www.Emoji-Challenge";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		77BF195922665CC700A2C5C3 /* Build configuration list for PBXProject "Emoji Challenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				77BF197122665CCE00A2C5C3 /* Debug */,
+				77BF197222665CCE00A2C5C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		77BF197322665CCE00A2C5C3 /* Build configuration list for PBXNativeTarget "Emoji Challenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				77BF197422665CCE00A2C5C3 /* Debug */,
+				77BF197522665CCE00A2C5C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		77BF196822665CC800A2C5C3 /* Emoji_Challenge.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				77BF196922665CC800A2C5C3 /* Emoji_Challenge.xcdatamodel */,
+			);
+			currentVersion = 77BF196922665CC800A2C5C3 /* Emoji_Challenge.xcdatamodel */;
+			path = Emoji_Challenge.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 77BF195622665CC700A2C5C3 /* Project object */;
+}
